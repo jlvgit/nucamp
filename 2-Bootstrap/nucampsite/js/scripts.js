@@ -12,3 +12,11 @@ $(function() {
         }
     });
 });
+
+function openReservationModal() {
+    $('#reserveModal').modal()
+};
+
+function openLoginModal() {
+    $('#loginModal').modal()
+};

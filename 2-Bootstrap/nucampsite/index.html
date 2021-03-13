@@ -31,7 +31,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class="btn btn-lg btn-info text-nowrap" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</a>
+                    <a role="button" class="btn btn-lg btn-info text-nowrap" onClick="openReservationModal()">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <label class="col-sm-6 col-form-label" for="date">Campsite Type</label>
+                                <label class="col-sm-6 col-form-label">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success active">
                                         <input type="radio" name="siteType" id="siteTent" value="tent" autocomplete="off" checked> Tent
@@ -80,7 +80,7 @@
                             </div>
                             <div class="row form-group">
                                 <div class="col">
-                                    <button class="btn btn-secondary" type="submit" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                                     <button class="btn btn-primary" type="submit">Search</button>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                 </ul>
 
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" onClick="openLoginModal()">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
