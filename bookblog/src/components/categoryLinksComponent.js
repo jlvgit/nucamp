@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col} from 'reactstrap';
 
-const Sections = () => {
+const CategoryLinks = () => {
 	return (
         <Container fluid="true">
             <Row className="row-cols-1">
@@ -34,4 +34,4 @@ const Sections = () => {
 	);
 };
 
-export default Sections;
+export default CategoryLinks;
