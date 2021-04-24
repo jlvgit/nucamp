@@ -3,6 +3,8 @@ import { Container, Row, Col} from 'reactstrap';
 
 import BookCard from './bookCardComponent'
 
+
+
 class BookRow extends Component {
     render(){
         return (

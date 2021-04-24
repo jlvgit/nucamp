@@ -4,14 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css'
 
 // Components
-import SearchNav from './components/searchNavComponent';
-import BookRow from './components/bookRowComponent';
+import Main from './components/mainComponent';
 
 function App() {
   return(
     <div>
-      <SearchNav />
-      <BookRow />
+      <Main />
     </div>
   )
 }
