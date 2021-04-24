@@ -3,7 +3,7 @@ import { Card, CardText, CardImg, CardImgOverlay } from 'reactstrap';
 
 const BookCard = (props) => {
 	return (
-		<div>
+		<a href="#">
 			<Card className="bg-dark">
 				<CardImg width="100%" src={props.book.image} alt={props.book.title} />
 				<CardImgOverlay className="d-flex flex-column justify-content-end">
@@ -12,7 +12,7 @@ const BookCard = (props) => {
 					</div>
 				</CardImgOverlay>
 			</Card>
-		</div>
+		</a>
 	);
 };
 
