@@ -3,7 +3,10 @@ import { BrowserRouter } from "react-router-dom";
 
 // Components
 import SearchNav from './searchNavComponent';
-import BookRow from './bookRowComponent';
+import Title from './titleComponent';
+import FeaturedBooks from './featuredBooksComponent';
+
+import { FEATURED } from '../shared/featuredBooks';
 
 class Main extends Component {
     render() {
@@ -11,7 +14,8 @@ class Main extends Component {
             <BrowserRouter>
                 <div className="App">
                     <SearchNav />
-                    <BookRow />
+                    <Title />
+                    <FeaturedBooks featured={FEATURED}/>
                 </div>
             </BrowserRouter>
         );
