@@ -8,7 +8,7 @@ function FeaturedBooks(props) {
 
     const featured = props.featured.map((book) => {
         return (
-            <Col className="d-flex justify-content-center mb-5 overflow-hidden p-0">
+            <Col key={book.id} className="d-flex justify-content-center mb-5 overflow-hidden p-0">
                 <BookCard book={book} />
             </Col>
         );

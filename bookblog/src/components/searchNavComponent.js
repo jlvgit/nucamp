@@ -21,16 +21,16 @@ const SearchNav = () => {
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="mr-auto" navbar>
 						<NavItem>
-							<NavLink href="#">HOME</NavLink>
+							<NavLink href="/home">HOME</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#">BOOKS</NavLink>
+							<NavLink href="/books">BOOKS</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#">RECOMMENDATIONS</NavLink>
+							<NavLink href="/recommendations">RECOMMENDATIONS</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#">ABOUT</NavLink>
+							<NavLink href="/about">ABOUT</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>

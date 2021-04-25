@@ -4,7 +4,7 @@ import { Col } from 'reactstrap';
 function FooterComponent() {
 	return (
 		<footer>
-			<div class="spacer d-flex justify-content-center">
+			<div className="spacer d-flex justify-content-center">
 				<Col className="col-md-4 fs-6">
 					<p>
 						This is a whole bunch of legal mumbo jumbo that no one will ever read. So I'm just gonna fill it
