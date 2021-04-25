@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FormGroup, Input, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-const Example = () => {
+const SearchNav = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
 
 	const toggle = () => setIsOpen(!isOpen);
@@ -39,4 +39,4 @@ const Example = () => {
 	);
 };
 
-export default Example;
+export default SearchNav;

@@ -8,6 +8,7 @@ import Title from './titleComponent';
 import FeaturedBooks from './featuredBooksComponent';
 import CategoryLinks from './categoryLinksComponent';
 import SectionComponent from './sectionComponent';
+import BottomSection from './bottomSection';
 
 import { FEATURED } from '../shared/featuredBooks';
 import { SECTIONS } from '../shared/featuredSections';
@@ -40,6 +41,8 @@ class Main extends Component {
 					</Container>
 
 					<SectionComponent section={SECTIONS[1]} reversed={true} />
+
+					<BottomSection />
 				</div>
 			</BrowserRouter>
 		);

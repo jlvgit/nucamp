@@ -5,11 +5,13 @@ import './styles.css'
 
 // Components
 import Main from './components/mainComponent';
+import FooterComponent from './components/footerComponent'
 
 function App() {
   return(
     <div>
       <Main />
+      <FooterComponent />
     </div>
   )
 }
