@@ -23,7 +23,7 @@ class Main extends Component {
 
 					<FeaturedBooks featured={FEATURED} />
 
-					<Container fluid="true">
+					<Container fluid={true}>
 						<Row className="spacer" />
 					</Container>
 
@@ -31,7 +31,7 @@ class Main extends Component {
 
 					<SectionComponent section={SECTIONS[0]} />
 
-					<Container fluid="true">
+					<Container fluid={true}>
 						<a href="#">
 							<h2 class="article-heading abril m-5">
 								We got awarded an award. Help us find a place to put it, we don't have any space.

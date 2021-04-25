@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const SectionComponent = (props) => {
 	return (
-		<Container fluid="true" className="striped-section">
+		<Container fluid={true} className="striped-section">
 			<Row className="d-flex justify-content-center oswald">
 				<p className="section-title new-release-title my-4">{props.section.title}</p>
 			</Row>

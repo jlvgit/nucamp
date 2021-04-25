@@ -3,7 +3,7 @@ import { Container, Row, Col} from 'reactstrap';
 
 const CategoryLinks = () => {
 	return (
-        <Container fluid="true">
+        <Container fluid={true}>
             <Row className="row-cols-1">
                 <Col className="col-md-4 text-center mb-5 p-0">
                     <div className="oswald">
