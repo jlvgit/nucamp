@@ -51,7 +51,7 @@ function RenderComments({ comments, addComment, campsiteId }) {
 						</div>
 					</div>
 				))}
-				<CommentForm campsiteId={campsiteId} addComment={addComment} />{' '}
+				<CommentForm campsiteId={campsiteId} addComment={addComment} />
 			</div>
 		);
 	}
